@@ -6,6 +6,7 @@ import '@mantine/core/styles.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    {/* @ts-ignore */}
     <MantineProvider withGlobalStyles withNormalizeCSS theme={{ colorScheme: 'dark' }}>
       <App />
     </MantineProvider>
